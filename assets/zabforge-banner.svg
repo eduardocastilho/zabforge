@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320">
+  <defs>
+    <linearGradient id="ember" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFB347"/>
+      <stop offset="0.55" stop-color="#FF6A1A"/>
+      <stop offset="1" stop-color="#E0331F"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4A5361"/>
+      <stop offset="1" stop-color="#262C35"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF7A1A" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FF7A1A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="320" rx="24" fill="#0E1116"/>
+  <g transform="translate(80,40) scale(0.47)"><g transform="translate(0,48)">
+  
+  <circle cx="272" cy="120" r="110" fill="url(#glow)"/>
+  <!-- anvil -->
+  <path d="M74 214 Q118 200 152 198 L430 198 L430 252 L370 252 Q344 254 336 280 L336 304 L378 334 L378 360 L134 360 L134 334 L176 304 L176 280 Q168 254 150 252 Q112 246 74 214 Z" fill="url(#steel)"/>
+  <rect x="152" y="198" width="278" height="8" fill="#6B7585"/>
+  <!-- pulse -->
+  <path d="M96 160 L204 160 L226 128 L250 190 L274 82 L298 160 L416 160" fill="none" stroke="url(#ember)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- sparks -->
+  <g stroke="#FFB347" stroke-width="7" stroke-linecap="round">
+    <line x1="274" y1="56" x2="274" y2="38"/>
+    <line x1="300" y1="64" x2="314" y2="50"/>
+    <line x1="248" y1="64" x2="234" y2="50"/>
+  </g>
+  <circle cx="330" cy="82" r="5" fill="#FFB347"/>
+  <circle cx="220" cy="84" r="4" fill="#FF6A1A"/>
+
+</g></g>
+  <text x="340" y="178" font-family='Inter, "Segoe UI", Helvetica, Arial, sans-serif' font-size="112" font-weight="800" letter-spacing="-2"><tspan fill="url(#ember)">zab</tspan><tspan fill="#F2F4F7">forge</tspan></text>
+  <text x="344" y="232" font-family='Inter, "Segoe UI", Helvetica, Arial, sans-serif' font-size="30" font-weight="500" fill="#9AA4B2">Zabbix monitoring, forged as code.</text>
+</svg>
