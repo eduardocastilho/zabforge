@@ -15,7 +15,7 @@
     </radialGradient>
   </defs>
   <rect width="1280" height="320" rx="24" fill="#0E1116"/>
-  <g transform="translate(80,40) scale(0.47)"><g transform="translate(0,48)">
+  <g transform="translate(240,40) scale(0.47)"><g transform="translate(0,48)">
   
   <circle cx="272" cy="120" r="110" fill="url(#glow)"/>
   <!-- anvil -->
@@ -33,6 +33,6 @@
   <circle cx="220" cy="84" r="4" fill="#FF6A1A"/>
 
 </g></g>
-  <text x="340" y="178" font-family='Inter, "Segoe UI", Helvetica, Arial, sans-serif' font-size="112" font-weight="800" letter-spacing="-2"><tspan fill="url(#ember)">zab</tspan><tspan fill="#F2F4F7">forge</tspan></text>
-  <text x="344" y="232" font-family='Inter, "Segoe UI", Helvetica, Arial, sans-serif' font-size="30" font-weight="500" fill="#9AA4B2">Zabbix monitoring, forged as code.</text>
+  <text x="500" y="178" font-family='Inter, "Segoe UI", Helvetica, Arial, sans-serif' font-size="112" font-weight="800" letter-spacing="-2"><tspan fill="url(#ember)">zab</tspan><tspan fill="#F2F4F7">forge</tspan></text>
+  <text x="504" y="232" font-family='Inter, "Segoe UI", Helvetica, Arial, sans-serif' font-size="30" font-weight="500" fill="#9AA4B2">Zabbix monitoring, forged as code.</text>
 </svg>
